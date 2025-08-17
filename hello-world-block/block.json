@@ -1,0 +1,13 @@
+{
+  "apiVersion": 2,
+  "name": "myplugin/hello-world",
+  "title": "Hello World",
+  "category": "widgets",
+  "icon": "smiley",
+  "description": "A simple Hello World Gutenberg block.",
+  "supports": {
+    "html": false
+  },
+  "editorScript": "file:./build/index.js",
+  "textdomain": "hello-world-block"
+}
